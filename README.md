@@ -1,8 +1,4 @@
-<style>
-red { color: red }
-yellow { color: yellow }
-orange {color: orange}
-</style>
+
 
 # Data Scrapping using Python
 
@@ -17,8 +13,8 @@ orange {color: orange}
     - Requests
     - BeautifulSoup
     - Pandas
-    - [<orange> Optional</orange>] Re
-    - [<orange> Optional</orange>] Matplotlib
+    - [Optional] Re
+    - [Optional] Matplotlib
 - Basics of HTML
 
 ## Collecting data using API
@@ -31,7 +27,7 @@ If available, API requests are the bestway to collect data from websites. Most o
 - Enter your city name or input latitude and longitude.
 - Choose required parameters (here we choose temperature at 2 meter altitude only).
 - You can also choose number of forecast days (by default it will be 7 days).
-- [<orange> Optional</orange>] Now you may get the CSV or XML from their website.
+- [Optional] Now you may get the CSV or XML from their website.
 - Copy the API Url provided below.
 - Using the API, create a python GET request to the website and fetch the data in JSON format
 
